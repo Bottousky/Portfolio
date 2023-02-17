@@ -42,12 +42,3 @@ Además, se incluyeron **Google Fonts** para personalizar la fuente y **Bootstra
 ## Español
 
 El texto de la página web está escrito en español, al igual que las clases y atributos personalizados. Las clases relacionadas con Bootstrap se incluyeron en inglés.
-
-## Proyecto en vivo
-
-Puedes acceder al proyecto en vivo en: https://estefaniacn.github.io/portafolio-adaptable-bootstrap/
-
-
-## Curso en YouTube
-
-Para crear este proyecto paso a paso te invito a tomar el curso de forma gratuita en el canal de YouTube de [freeCodeCamp en Español](https://www.youtube.com/freecodecampespanol).
