@@ -1,8 +1,14 @@
 /* Barra de navegacion */
 
 .navbar {
-  background-color: #f5f6f7;
+  background-image: url("imagenes/pexels-eberhard-grossgasteiger-2310713.jpg");
+  background-size: cover;
+  background-attachment: fixed;
   border-bottom: 2px solid #e7e7e7;
+}
+
+.navbar a{
+  color: #0a0a23;
 }
 
 .navbar-collapse {
@@ -11,6 +17,11 @@
 }
 
 /* Estilos generales */
+body {
+  background-image: url("imagenes/pexels-eberhard-grossgasteiger-2310713.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 section {
   display: flex;
@@ -21,7 +32,8 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Share Tech Mono', monospace;
+  color: white;
 }
 
 .seccion-oscura {
@@ -68,6 +80,7 @@ h1 {
   background-color: #f5f6f7;
   min-height: 450px;
   text-align: center;
+  background-image:  url(imagenes/pexels-dana-tentis-370799.jpg);
 }
 
 .hero-principal {
@@ -82,7 +95,7 @@ h1 {
 
 .hero-principal h2 {
   font-size: 1.5rem;
-  color: #615151;
+  color: white;
 }
 
 /* Sobre mi */
@@ -120,9 +133,31 @@ h1 {
   transition: all 0.2s ease-in;
 }
 
-.experiencia .columna:hover {
+.web:hover {
   color: white;
-  background-color: #1b1b32;
+  background-image: url(imagenes/pexels-markus-spiske-2004161.jpg);
+  background-size: 100% 50%;  
+}
+
+.softwaredev:hover {
+  background-image: url(imagenes/fondo\ developer.png);
+  background-size: 100% 100%;
+  color: white;
+}
+
+.docente:hover {
+  background-image: url(imagenes/fondo\ docente.avif);
+  background-size: 100% 100%;
+  color: white;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.estudiante:hover {
+  color: white;
+  background-image: url(imagenes/fondo\ estudiante.jpg);
+  background-size: 200% 100%;
+  font-family: 'Permanent Marker', cursive;
+  color: black;
 }
 
 .textoalternativo a{
@@ -341,7 +376,8 @@ h1 {
 /* Pie de pagina (footer) */
 
 footer {
-  min-height: 500px;
+  min-height: 100px;
+  max-height: 600px;
 }
 
 .footer-logo {
@@ -352,8 +388,6 @@ footer {
 
 .footer-texto {
   font-size: 1.5rem;
-  padding: 20px;
-  margin-bottom: 30px;
   font-family: 'Quicksand', sans-serif;
 }
 
